@@ -31,7 +31,7 @@ export default function header(props)
   )
 }
 Headers.defaultProps={
-    title:"your title here",
+    title:"your title here"
    
 }
 Headers.propTypes={

@@ -1,11 +1,12 @@
 import React from 'react'
 
-function Todo() {
+function TodoItem({todo}) {
   return (
     <div>
-      to do works
+  <h4>{todo.title}</h4>
+  <p>{todo.desc}</p>
     </div>
   )
 }
 
-export default Todo
+
