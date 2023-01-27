@@ -8,7 +8,7 @@ import TodoItem from './MyComponents/TodoItem'
 function App() {
   return (
     <>
-    <Header title="MyToDo"/>
+    <Header title="MyToDo " searchBar= {true}/>
     <Todos/>
     <TodoItem/>
     <Footer/>
