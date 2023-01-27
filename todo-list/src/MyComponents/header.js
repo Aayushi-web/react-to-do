@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function header() {
+export default function header(props 
+    ) {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
     <div className="container-fluid">

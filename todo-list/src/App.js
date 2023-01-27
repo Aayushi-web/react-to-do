@@ -3,14 +3,14 @@ import './App.css';
 import Header from './MyComponents/Header'
 import Todos from './MyComponents/Todos'
 import Footer from './MyComponents/Footer'
-import Todo from './MyComponents/Todo'
+import TodoItem from './MyComponents/TodoItem'
 
 function App() {
   return (
     <>
-    <Header/>
+    <Header title="MyToDo"/>
     <Todos/>
-    <Todo/>
+    <TodoItem/>
     <Footer/>
   </>
   );
