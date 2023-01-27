@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 export default function header(props 
     ) {
@@ -30,5 +31,5 @@ export default function header(props
   )
 }
 Headers.propTypes={
-    title:propTypes.string
+    title: PropTypes.string
 }
