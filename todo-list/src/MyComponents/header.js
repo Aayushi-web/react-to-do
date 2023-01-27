@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export default function header(props 
-    ) {
+export default function header(props)
+{
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
     <div className="container-fluid">
@@ -30,6 +30,11 @@ export default function header(props
   </nav>
   )
 }
+Headers.defaultProps={
+    title:"your title here",
+   
+}
 Headers.propTypes={
-    title: PropTypes.string
+    title: PropTypes.string,
+    searchBar:PropTypes.bool.isRequired
 }
